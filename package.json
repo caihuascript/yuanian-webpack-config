@@ -1,0 +1,61 @@
+{
+    "name": "yuanian-webpack-config",
+    "version": "1.0.0",
+    "description": "在开发和生产环境中的大部分配置已经\b预置好了",
+    "main": "./src/index.js",
+    "scripts": {
+        "cm": "git-cz",
+        "dev": "friendly=off webpack-dev-server --config ./example.config.js",
+        "precm": "jest",
+        "semantic-release": "semantic-release pre && npm publish && semantic-release post",
+        "test": "jest"
+    },
+    "keywords": [],
+    "author": {
+        "name": "Cai Hua",
+        "email": "844188271@qq.com"
+    },
+    "license": "MIT",
+    "devDependencies": {
+        "@talentui/cz-project-changelog": "^0.0.0-development",
+        "commitizen": "2.9.6",
+        "eslint": "^4.5.0",
+        "husky": "0.14.3",
+        "jest": "^23.4.2",
+        "semantic-release": "^8.2.3",
+        "tslint": "^5.6.0",
+        "webpack": "^4.19.1",
+        "webpack-cli": "^2.1.3",
+        "webpack-dev-server": "^3.1.4"
+    },
+    "dependencies": {
+        "@talentui/dll-parser": "^1.0.3",
+        "add-asset-html-webpack-plugin": "^2.1.3",
+        "babel-eslint": "^7.2.3",
+        "cache-loader": "^1.2.2",
+        "case-sensitive-paths-webpack-plugin": "^2.1.2",
+        "chalk": "^2.4.1",
+        "eslint-loader": "^1.9.0",
+        "eslint-plugin-react": "^7.3.0",
+        "fork-ts-checker-webpack-plugin": "^0.4.9",
+        "friendly-errors-webpack-plugin": "^1.6.1",
+        "mini-css-extract-plugin": "^0.4.0",
+        "optimize-css-assets-webpack-plugin": "^5.0.0",
+        "react-dev-utils": "^5.0.0",
+        "style-loader": "^0.20.3",
+        "thread-loader": "^1.2.0",
+        "tslint-loader": "^3.5.3",
+        "uglifyjs-webpack-plugin": "^1.3.0",
+        "webpack-bundle-analyzer": "^2.11.1",
+        "webpackbar": "^2.6.1"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/caihuascript/yuanian-webpack-config.git"
+    },
+    "bugs": {
+      "url": "https://github.com/caihuascript/yuanian-webpack-config/issues"
+    },
+    "homepage": "https://github.com/caihuascript/yuanian-webpack-config#readme"
+  }
+  
